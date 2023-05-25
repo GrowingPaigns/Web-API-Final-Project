@@ -1,0 +1,159 @@
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1 {
+    position: relative;
+    margin-top: 25%;
+    margin-left: 5%;
+    transform-origin: left;
+}
+
+
+.content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
+}
+
+.form-container {
+    margin-top: 19%;
+    margin-right: 2%;
+    flex: 1;
+    text-align: right;
+
+}
+
+.form-label-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    text-align: right;
+    flex: 1;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-size: 1.2rem;
+    text-align: left;
+    flex: 1;
+}
+
+.form-input {
+    text-align: right;
+    width: 100%;
+    margin: 0 0 0 1rem;
+}
+
+.form-textarea {
+    margin: 0 0 0 1rem;
+    width: 100%;
+    height: 10rem;
+}
+
+.form-button {
+    position: relative;
+    background-color: #0c85ca;
+    border-color: #0c85ca;
+    color: white;
+    cursor: pointer;
+    align-self: center;
+    margin-right: 1rem;
+    outline: none; /* Add this line */
+    font-weight: bold;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.2s ease-in-out;
+    text-transform: uppercase;
+}
+
+
+.form-button:hover {
+    background-color: #3e8e41;
+}
+
+.messages-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    margin-right: 5%;
+    flex: 1;
+}
+
+.message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 5%;
+}
+
+.message-container p {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+    text-align: left;
+    word-wrap: break-word;
+}
+
+.message-container p:not(:last-child) {
+    margin-bottom: -1rem;
+}
+
+.message-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 2rem;
+}
+
+
+@media only screen and (max-width: 894px) {
+    .content-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        position: relative;
+        margin-top: 22%;
+        margin-left: 5%;
+        transform-origin: left;
+    }
+
+    .message-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .message-container {
+        width: 90%;
+        align-items: center;
+    }
+
+    .form-container {
+        margin-top: 1%;
+        margin-right: 7%;
+        margin-left: 4%;
+        flex: 1;
+        width: 90%
+    }
+
+    .form-input,
+    .form-textarea {
+        width: calc(100% - 0.5rem);
+    }
+
+}

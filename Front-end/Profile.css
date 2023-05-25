@@ -1,0 +1,112 @@
+.profilePage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.user-card-and-tabs {
+  position: relative;
+  display: flex;
+  margin-top: 151px;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+}
+
+.profileBtnClass {
+  position: relative;
+  background-color: #0c85ca;
+  border-color: #0c85ca;
+  color: white;
+  cursor: pointer;
+  align-self: center;
+  margin-right: 1rem;
+  outline: none; /* Add this line */
+  font-weight: bold;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+}
+
+.profileBtnClass:hover {
+  background-color: #0b7cbc;
+  border-color: #0b7cbc;
+  transform: translateY(-2px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.table-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.table-row {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.table-cell {
+  flex: 1;
+  margin: 10px;
+}
+
+.button-container {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.big-button {
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+  margin-right: 20px;
+  background-color: #0c85ca;
+  color: #fff;
+  border: none;
+
+  font-family: "Yu Gothic UI", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 23px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.big-button:hover {
+  background-color: #1b99e1;
+}
+
+.delete-button {
+  background-color: #E13E0A;
+}
+
+.edit-button {
+  background-color: #0CBECA;
+}
+@media (min-width: 959px) {
+  .user-card-and-tabs {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Add this line to center the items */
+  }
+
+  .user-card {
+    width: 50%;
+  }
+
+  .card-with-tabs {
+    width: 50%;
+  }
+}

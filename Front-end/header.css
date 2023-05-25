@@ -1,0 +1,142 @@
+.header {
+  box-sizing: border-box;
+  background: #0c85ca;
+  border: 2px solid #11577d;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.58);
+  display: flex;
+  height: 70px;
+  justify-content: center;
+  left: 0;
+  position: relative;
+  right: 0;
+  top: 0;
+}
+
+.sign-in-out-container {
+  position: absolute;
+  top: 5px;
+  right: -5px;
+  display: flex;
+
+  padding-right: 10px;
+}
+
+.sign-in-button,
+.sign-out-button {
+  border: none;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Yu Gothic UI", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.58);
+  transition: background-color 0.4s ease-in-out;
+  border-radius: 20px;
+}
+
+.sign-in-button:hover,
+.sign-out-button:hover {
+  background-color: #146795;
+  border-radius: 20px;
+}
+
+.sign-out-button {
+  margin-left: auto;
+}
+
+.logo-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.logo {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.logo-text {
+  height: 80%;
+}
+
+.buttonContainer {
+  justify-content: center;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  top: 100%;
+}
+
+.buttons {
+  background-color: #0c85ca;
+  border: 2px solid #11577d;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  display: flex;
+
+  flex-wrap: wrap;
+  float: right;
+}
+
+.buttonClass {
+  border: none;
+  background-color: transparent;
+  color: #c6cfff;
+  display: flex;
+  font-family: "Yu Gothic UI", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  justify-content: center;
+  padding: 0 12px;
+  text-align: center;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.58);
+  transition: background-color 0.4s ease-in-out;
+}
+
+.buttonClass:hover {
+  background-color: #146795;
+  border-radius: 0 0 0 0;
+}
+.buttonClass.active {
+  background-color: #0e4868;
+  border-radius: 0 0 0 0;
+}
+
+.buttonClass:first-child:hover {
+  background-color: #146795;
+  border-radius: 0 0 0 7px;
+}
+.buttonClass.active:first-child {
+  background-color: #0e4868;
+  border-radius: 0 0 0 7px;
+}
+
+.buttonClass:last-child:hover {
+  background-color: #146795;
+  border-radius: 0 0 7px 0;
+}
+.buttonClass.active:last-child {
+  background-color: #0e4868;
+  border-radius: 0 0 7px 0;
+}
+
+.div2 {
+  position: fixed;
+  margin-bottom: 10px;
+  top: 0;
+  right: 10px;
+}
+.div3 {
+  position: absolute;
+  margin-bottom: 10px;
+  top: 0;
+  left: 10px;
+  float: right;
+}
