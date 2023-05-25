@@ -4,7 +4,7 @@ This repository contains code for a front-end website. Included is some function
 
 ### Explanation of Content:
 
-**These are only pieces of the front-end final product.** There will not be any backend code included in this repository to protect future work that we are going to do on the project, while also preserving the security methods painstakingly implemented by one of our engineers.
+***These are only pieces of the whole front-end final product.*** There will also not ever be any backend code included in this repository to protect future work that we are going to do on the project, while also preserving the security methods painstakingly implemented by one of our engineers.
 
 Unfortunately, in its current state there is no way to easily show off the functionality of the program. In lieu of this, the video below served as our final presentation for the semester, and it explains in depth the functionality of the site. In the last **5 minutes** of the video there is a demo which shows off the state of the site at the end of the semester (05/10/23)
 
