@@ -1,7 +1,3 @@
-# Web Api Final - Gym App (Front-End)
-
-Spring 2023 Web Api Final
-
 _Team Members:_
 
 > _Nader Zadron_<br>
@@ -11,7 +7,9 @@ _Team Members:_
 >_Brandon Borgonah_<br>
 >_Samuel Hilfer_<br>
 
+# Web Api Final - Gym App (Front-End)
 
+For our Spring 2023 Web Api Final, we developed a front and backend API for a gym website, including a database that can holder user, and class content
 
 ## Front-end code:
 - ### 📱 App 
