@@ -14,8 +14,10 @@ _Team Members:_
 
 
 ## Front-end code:
-- ### 📱 App (Contains route handling code that allows for user navigation)
-- ### 📛 Coaches (Will eventually contain information about instructors)
+- ### 📱 App 
+    - _Contains route handling code that allows for user navigation_
+- ### 📛 Coaches 
+    - _(Will eventually contain information about instructors)_
 - ### 📝Contact
     - Contains general contact information for the establishment
     - Contains a contact form to directly send an email to the establishment
