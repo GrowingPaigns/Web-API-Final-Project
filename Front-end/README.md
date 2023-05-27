@@ -15,7 +15,7 @@ _Team Members:_
 
 ## Front-end code:
 - ### 📱 App 
-    - _Contains route handling code that allows for user navigation_
+    - Contains route handling code that allows for user navigation
 - ### 📛 Coaches 
     - _(Will eventually contain information about instructors)_
 - ### 📝Contact
