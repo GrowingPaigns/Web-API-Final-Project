@@ -11,48 +11,26 @@ _Team Members:_
 >_Brandon Borgonah_<br>
 >_Samuel Hilfer_<br>
 
-## Server - Backend:
 
-> All code related to the backend of this project [found here](https://github.com/NaderZadron/Gym-App)
 
-## Client - Contains all of the front-end code:
+## Front-end code:
+- App (Contains route handling code that allows for user navigation)
+- Coaches (Will eventually contain information about instructors)
+- Contact
+    - Contains general contact information for the establishment
+    - Contains a contact form to directly send an email to the establishment
+- Profile
+    - Contains stylings and code which handles profile input for different types of users
+        - Admin users have access to create class features, can remove users from the system's database, and can update their own information
+        - Member users can only update their personal information, or select different types of payment plans 
+- Footer
+    - Contains code and stylings for the simple contact footer seen below the content on each page 
+        - _Shown off in the video on the 'Coaches' page_ 
+- Header
+    - Contains code and stylings for the header seen at the top of each page
+        - Users can navigate between pages using the tabs (can also click the logo to be taken home)
+        - Users can log-in/log-out using the button in the top right of the page.  
 
-### How to run:
-
-> Starting from the terminal in your IDE, 'cd' into the src directory.
-
-> run npm start - should automatically pull up the website in your browser
-
-#### ~ (Windows Specific Setup Help) ~
-> - if it doesn't start, check that you have installed all packages in package.json in this directory
->   - should also have a package-lock file
-> - check that you have '.pem' files in this directory
-> - check that these are the scripts in your package file
-
-      "scripts": {
-          "start": "set HTTPS=true&&set SSL_CRT_FILE=./localhost.pem&&set SSL_KEY_FILE=./localhost-key.pem&&react-scripts start",
-          "build": "react-scripts build",
-          "test": "react-scripts test",
-          "eject": "react-scripts eject"
-        },
-
-(Website should update automatically for any code changed - no need to refresh/restart the service)
-
-### File Overview:
-
-#### Public:
-
-- The public folder contains static files such as: 
-  - index 
-  - html 
-  - javascript library files 
-  - images, and other assets, etc. which you don't want to be processed by webpack
-
-#### src:
-
-This folder is the heart of React application as it contains JavaScript which needs to be processed by webpack and CSS stylings for the front-end pages. 
-
-In this folder, there is a main component App.js, its related styles (App.css), and test suite (App.test.js). The program index.js and its style sheet (index.css) provide an entry point into the App. 
 
 ## Postman Test Routes:
 
