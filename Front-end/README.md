@@ -14,19 +14,19 @@ _Team Members:_
 
 
 ## Front-end code:
-- App (Contains route handling code that allows for user navigation)
-- Coaches (Will eventually contain information about instructors)
-- Contact
+- ### 📱 App (Contains route handling code that allows for user navigation)
+- ### 📛 Coaches (Will eventually contain information about instructors)
+- ### 📝Contact
     - Contains general contact information for the establishment
     - Contains a contact form to directly send an email to the establishment
-- Profile
+- ### 🔳 Profile
     - Contains stylings and code which handles profile input for different types of users
         - Admin users have access to create class features, can remove users from the system's database, and can update their own information
         - Member users can only update their personal information, or select different types of payment plans 
-- Footer
+- ### 🦶 Footer
     - Contains code and stylings for the simple contact footer seen below the content on each page 
         - _Shown off in the video on the 'Coaches' page_ 
-- Header
+- ### 🗣️ Header
     - Contains code and stylings for the header seen at the top of each page
         - Users can navigate between pages using the tabs (can also click the logo to be taken home)
         - Users can log-in/log-out using the button in the top right of the page.  
